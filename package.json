@@ -1,0 +1,19 @@
+{
+  "name": "battleship",
+  "version": "0.0.0",
+  "description": "experimenting with making a game in Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smonette/battleship.git"
+  },
+  "author": "steph monette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smonette/battleship/issues"
+  },
+  "homepage": "https://github.com/smonette/battleship"
+}
