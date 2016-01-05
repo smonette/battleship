@@ -1,3 +1,3 @@
 # Battleship
 
-experimenting with making a game in Node.js
+Experimenting with making a game in Node.js
