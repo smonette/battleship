@@ -3,6 +3,21 @@
 
 window.onload = function() {
 
+  // CREATE BOARDS
+  var boards = document.getElementsByClassName("gameboard");
+
+  for(i = 0; i < boards.length; i++){
+    for(var y = 0; y < 5; y++) {
+      for (var x = 0; x < 5; x++) {
+        var gridBox = document.createElement("div");
+        gridBox.className = "grid-square";
+        gridBox.setAttribute("data-x", x);
+        gridBox.setAttribute("data-y", y);
+        boards[i].appendChild(gridBox);
+      }
+    }
+  }
+
   // PLACEMENT
 
   // Each player has array with 5 ships, top point of each. PUSH TO ARRAY
