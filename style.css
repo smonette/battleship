@@ -20,9 +20,13 @@ body {
   width: 60px;
   height: 60px;
   display: inline-block;
+  border-radius: 4px;
 }
-.grid-square.hit {
+.grid-square.ship {
   background: grey;
+}
+.grid-square.miss {
+  background: blue;
 }
 .grid-square.hit {
   background: red;
