@@ -21,3 +21,9 @@ body {
   height: 60px;
   display: inline-block;
 }
+.grid-square.hit {
+  background: grey;
+}
+.grid-square.hit {
+  background: red;
+}
