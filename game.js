@@ -10,6 +10,7 @@
 // coordinates of third section - 2 PUSH TO ARRAY
 
 // placement1 = [[ 0, 1, 2, 1, 0],[1, 2, 3, 2, 1],[2, 3, 4, 3, 2]];
+
 // placement2 = [[ 0, 1, 2, 1, 0],[1, 2, 3, 2, 1],[2, 3, 4, 3, 2]];
 
 // HIT

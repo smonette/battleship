@@ -1,0 +1,23 @@
+body {
+  background: #deeff5;
+}
+.row {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+
+
+.gameboard {
+	width: 326px;
+	height: 326px;
+	background-color: #6cb7d0;
+	padding: 5px;
+}
+.grid-square {
+  border: 1px solid #6cb7d0;
+  background: white;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
