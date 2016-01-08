@@ -24,11 +24,13 @@ window.onload = function() {
   // coordinates of second section array -1. PUSH TO ARRAY
   // coordinates of third section - 2 PUSH TO ARRAY
 
-  // placement1 = [[ 0, 1, 2, 1, 0],[1, 2, 3, 2, 1],[2, 3, 4, 3, 2]];
+  // placement1 = [[ 0, 1, 2, 1, 0],[1, 2, 3, 2, 1],[0, 3, 4, 3, 2]];
 
   // placement2 = [[ 0, 1, 2, 1, 0],[1, 2, 3, 2, 1],[2, 3, 4, 3, 2]];
+  
+var coordinates = [[0,0],[0,1],[0,2],[1,1],[1,2],[1,3],[2,1],[3,1],[3,2],[3,4],[3,5],[4,1]];
 
-  var placement_sample = [00,01,02,11,12,13,32,33,34] 
+  var placement_sample = [00,01,02,11,12,13,32,33,34,21,31,41] 
 
 
 
